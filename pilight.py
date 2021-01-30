@@ -45,7 +45,7 @@ while True:
         if time.strftime('%A') == "Saturday":
             rainbow()
         elif time.strftime('%A') == "Sunday":
-            rainbowt()
+            rainbow()
         elif time.strftime('%A') == "Friday":
             light(blue)
         else:
